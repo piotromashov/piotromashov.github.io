@@ -3,9 +3,6 @@ name: Publish Notion website to GitHub Pages
 on:
   # Manual update only.
   workflow_dispatch:
-  
-permissions:
-  contents: write
 
 jobs:
   deploy:
@@ -28,11 +25,14 @@ jobs:
         
       - name: Run Loconotion
         run: |
-          docker run \
+          docker-compose run \
           -v "$GITHUB_WORKSPACE/pages_repo/dist:/app/loconotion/dist" \
           -v "$GITHUB_WORKSPACE/pages_repo/site.toml:/app/loconotion/site.toml" \
           loconotion "site.toml"
         working-directory: loconotion
+      - name: What's the deal?
+        run: |
+          find "$GITHUB_WORKSPACE"
       - name: Push to GitHub pages
         run: |
           git config --global user.name "github-actions[bot]"
