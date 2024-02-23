@@ -1,17 +1,63 @@
-# Notion website template
+<p align="center">
+    <h2 align="center">Indigo Minimalist Jekyll Template - <a href="https://sergiokopplin.github.io/indigo/">Demo</a></h2>
+</p>
 
-Make a website using Notion, GitHub Pages and Loconotion in just 5 steps.
+<p align="center">This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</p>
 
-1. Fork this repo or press [use this template button](https://github.com/timovv/notion-website-template/generate).
-1. Create a Notion page to be your website. This can have subpages, databases, anything supported by [Loconotion](https://github.com/leoncvlt/loconotion).
-1. Share your Notion page publicly, and update `site.toml` in your repo to point to it.
-1. Run the `Publish Notion website to GitHub Pages` action under the Actions tab of your repo.
-1. Update your repo's `Pages` settings to use the `gh-pages` branch, hit save, and voila!
+***
 
-To resync the website, simply run the GitHub action again. `site.toml` can be updated to use any of the settings specified in the [Loconotion README](https://github.com/leoncvlt/loconotion/blob/master/README.md).
+<p align="center">
+    <b><a href="README.md#what-has-inside">What has inside</a></b>
+    |
+    <b><a href="README.md#setup">Setup</a></b>
+    |
+    <b><a href="README.md#settings">Settings</a></b>
+    |
+    <b><a href="README.md#how-to">How to</a></b>
+</p>
 
-## Acknowledgements
+<p align="center">
+    Light and Dark themes.
+</p>
 
-Thanks to:
-- @leoncvt for creating the Loconotion script
-- @X1011 for the original script used to deploy the website to GitHub pages
+<p align="center">
+    <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" />
+</p>
+
+## What has inside
+
+- [Jekyll](https://jekyllrb.com/), [Sass](https://sass-lang.com/) ~[RSCSS](https://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/);
+- Page Speed: [99~Desktop](https://pagespeed.web.dev/analysis/https-sergiokopplin-github-io-indigo/41axptm3as?utm_source=psi&utm_medium=redirect&form_factor=desktop);
+
+## Setup
+
+0. :star: to the project. :metal:
+1. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
+2. Edit `_config.yml` with your data
+3. Write some posts :bowtie:
+
+To run locally do the following:
+
+1. Install [Jekyll](https://jekyllrb.com) and [Bundler](https://bundler.io/).
+2. Clone the forked repo on your machine
+3. Enter the cloned folder via terminal and run:
+```sh
+bundle install
+bundle exec jekyll serve
+```
+4. Open it in your browser: [http://localhost:4000](http://localhost:4000)
+
+Or run with [docker](https://github.com/BretFisher/jekyll-serve).
+
+## Settings
+
+You can customize your site on `_config.yml` file.
+
+## How To?
+
+Check the [FAQ](./FAQ.md).
+
+---
+## License
+
+[MIT](https://kopplin.mit-license.org/) License © Sérgio Kopplin
