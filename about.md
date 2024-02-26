@@ -4,42 +4,45 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+---
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+👋 Hi, I’m Piotr. I'm a human with a Ms. in Computer Science and AI.
 
-<h2>Skills</h2>
+### Techno-Artist
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Tests)</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+👨‍🏫 I'm passionate about AI and give talks and courses about AI & Arts.
 
-<h2>Projects</h2>
+🎨 I create art using technology. I'm also a Techno DJ and producer.
 
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+🔥 I participate in the organization of the regional burning man in Argentina, Fuego Austral.
+
+### Research/Engineering
+
+🧑‍💻 I'm a Software Engineer w/10 years of experience in tech industry and a Masters degree in Computer Science. I've been working in tech companies from seeding stages in accelerators to IPOs and market leaders, and I enjoy bringing new ideas, collaborating, filling gaps, and leading product development.
+
+🧠 I performed scientific research on AI at a University in Switzerland, in which we developed a novel method to explain the machine learning models predictions.
+
+📝 We were invited to present our results in a world renowned AI conference ([IJCAI](www.ijcai.org/proceedings/2022/104)).
+
+🛡️ Before that I worked as a Security Software Engineer for four years at Medallia.
+
+📈 Since the industry has been growing I have had many roles and combinations of them. Software Engineer, Backend, FullStack, SysAdmin, DevOps, Tech Lead.
+
+### Skills
+
+- AI, ML, DL
+- Scientific Research
+- HTML, CSS
+- Python, Javascript 
+- Unix
+- Git
+- Object Oriented Programming
+- SQL, NoSQL
+- Scrum and Kanban
+- TDD & Continuous Integration
+
+### Projects
+
+- [xAI Research Code and Paper](https://github.com/piotromashov/baycon)
+- [Generative IA images game "sonIA"](https://github.com/piotromashov/sonIA)
+- [Fuego Austral Ticketera](https://github.com/fuegoaustral/ticketera)
