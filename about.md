@@ -6,13 +6,11 @@ layout: page
 
 ---
 
-👋 Hi, I’m Piotr. I'm a human with a Ms. in Computer Science and AI.
+👋 Hi, I’m Piotr. I'm an AI Researcher and Computer Scientist.
 
-### Techno-Artist
+👨‍🏫 I'm passionate about AI and I'm currently sharing what I know, by giving lectures and workshops on AI. 
 
-👨‍🏫 I'm passionate about AI and give talks and courses about AI & Arts.
-
-🎨 I create art using technology. I'm also a Techno DJ and producer.
+🎨 I also give workshops for artists about AI and how to create art using technology.
 
 🔥 I participate in the organization of the regional burning man in Argentina, Fuego Austral.
 
@@ -30,10 +28,13 @@ layout: page
 
 ### Skills
 
-- AI, ML, DL
+- Lecturer
+- AI
+- ML/DL/LLMs
 - Scientific Research
 - HTML, CSS
-- Python, Javascript 
+- Javascript
+- Python/Flask/Django
 - Unix
 - Git
 - Object Oriented Programming
