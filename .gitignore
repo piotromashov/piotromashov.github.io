@@ -1,2 +1,7 @@
 *.DS_Store
 .ruby-version
+
+# jekyll ignored files and folders
+.jekyll-metadata
+.jekyll-cache
+_site
