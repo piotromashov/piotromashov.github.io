@@ -18,7 +18,7 @@ layout: page
 * [Artlab](https://artlabpro.net/) Art and Technology Laboratory.
 * [EMBA](https://www.emba.com.ar/) Music School of Buenos Aires.
 
-🔥 I participate in the organization of the regional burning man in Argentina, Fuego Austral.
+🔥 I participate in the organization of the regional burning man in Argentina, [Fuego Austral](https://fuegoaustral.org/).
 
 ### Research/Engineering
 
