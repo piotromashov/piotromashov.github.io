@@ -22,7 +22,7 @@ layout: page
 
 ### Research/Engineering
 
-🧑‍💻 I'm also a Software Engineer w/10 years of experience in tech industry and a Masters degree in Computer Science. I've been working in tech companies from seeding stages in accelerators to IPOs and market leaders, and I enjoy bringing new ideas, collaborating, filling gaps, and leading product development.
+🧑‍💻 I'm also a Software Engineer w/10 years of experience in tech industry and a Masters degree in AI. I've been working in tech companies from seeding stages in accelerators to IPOs and market leaders, and I enjoy bringing new ideas, collaborating, filling gaps, and leading product development.
 
 🧠 I performed scientific research on AI at a University in Switzerland, in which we developed a novel method to explain the machine learning models predictions.
 
@@ -38,15 +38,7 @@ layout: page
 - AI
 - ML/DL/LLMs
 - Scientific Research
-- HTML, CSS
-- Javascript
-- Python/Flask/Django
-- Unix
-- Git
-- Object Oriented Programming
-- SQL, NoSQL
-- Scrum and Kanban
-- TDD & Continuous Integration
+- Music Producer
 
 ### Projects
 
