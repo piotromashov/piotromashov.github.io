@@ -40,8 +40,12 @@ layout: compress
 
 </head>
 <body>
-    <div style="background-image: url('{{ site.url }}/{{ site.background }}'); background-size: cover; background-position: center; background-repeat: repeat-x; margin: 0; background-attachment: fixed;">
-        <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
+    <div style="background-image: url('{{ site.url }}/{{ site.background }}'); background-size: auto;
+	background-position: top center;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+    ">
+        <div class="content wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
             {% if page.layout == "post" %}
                 <div class="post">
             {% else %}

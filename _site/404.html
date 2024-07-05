@@ -278,7 +278,7 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 
 .wrapper-large { max-width: 810px; }
 
-.content { background-color: rgba(0, 0, 0, 0.5); text-shadow: 4px 4px 8px black; }
+.content { background-color: rgba(0, 0, 0, 0.25); text-shadow: 4px 4px 8px black; }
 
 /* general helpers */
 .text-center { text-align: center; }
@@ -443,8 +443,12 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 
 </head>
 <body>
-    <div style="background-image: url('http://localhost:4000/assets/images/background2.jpg'); background-size: cover; background-position: center; background-repeat: repeat-x; margin: 0; background-attachment: fixed;">
-        <div class="wrapper-large">
+    <div style="background-image: url('http://localhost:4000/assets/images/background2.jpg'); background-size: auto;
+	background-position: top center;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+    ">
+        <div class="content wrapper-large">
             
                 
                     <div class="page ">
