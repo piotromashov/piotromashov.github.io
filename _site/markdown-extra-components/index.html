@@ -296,7 +296,7 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 
 @keyframes fade-in-down { 0% { opacity: 0; transform: translateY(-10px); }
   100% { opacity: 1; transform: translateY(0); } }
-.home, .blog, .projects { margin-top: 125px; }
+.home, .blog, .projects { padding-top: 125px; }
 .home > .list, .blog > .list, .projects > .list { border-top: 1px solid #222; margin-top: 30px; padding-top: 40px; position: relative; }
 .home > .list:before, .blog > .list:before, .projects > .list:before { display: block; content: " "; width: 7px; height: 7px; border: #222 1px solid; position: absolute; top: -5px; left: 50%; margin-left: -5px; background: #000; box-shadow: #000 0 0 0 5px; border-radius: 3px; }
 
@@ -310,7 +310,7 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 .blog > .list > .item > .url > .title, .projects > .list > .item > .url > .title { display: inline; }
 .blog > .list > .item > .url > .emoji, .projects > .list > .item > .url > .emoji { display: inline; position: relative; top: -4px; margin-right: 10px; }
 
-.page { margin-top: 125px; }
+.page { padding-top: 125px; }
 .page > h1 { text-align: center; margin-bottom: 6rem; }
 
 .about img { width: 50%; margin: 0 auto; display: block; }
@@ -446,12 +446,13 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
     </style>
 
 </head>
-<body class="content" style="background-image: url('http://localhost:4000/assets/images/background2.jpg'); background-size: cover; background-position: center; background-repeat: repeat-x; height: 100vh; margin: 0; background-attachment: fixed;">
-    <div class="wrapper-large">
-        
-            <div class="post">
-        
-        
+<body>
+    <div style="background-image: url('http://localhost:4000/assets/images/background2.jpg'); background-size: cover; background-position: center; background-repeat: repeat-x; margin: 0; background-attachment: fixed;">
+        <div class="wrapper-large">
+            
+                <div class="post">
+            
+            
 
 
 <!-- <nav class="nav">
@@ -859,9 +860,8 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 </footer>
 
 
-    </div>
-</div>
-</div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
