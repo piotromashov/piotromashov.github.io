@@ -39,7 +39,7 @@ layout: compress
     </style>
 
 </head>
-<body>
+<body class="content" style="background-image: url('{{ site.url }}/{{ site.background }}'); background-size: cover; background-position: center; background-repeat: repeat-x; height: 100vh; margin: 0; background-attachment: fixed;">
     <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
         {% if page.layout == "post" %}
             <div class="post">
