@@ -8,7 +8,7 @@ description: Welcome to Piotr's techno mind.
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.png
+picture: assets/images/profile.jpg
 background: assets/images/background2.jpg
 
 # your site color theme, true for dark theme, 
