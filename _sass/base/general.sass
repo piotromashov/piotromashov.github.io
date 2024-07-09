@@ -7,7 +7,6 @@ body
 	background: $omega
 	text-align: center
 
-
 h1, h2, h3, h4
 	font-family: $fontSans
 	color: $beta
@@ -124,6 +123,14 @@ pre
 	border: 1px solid $epsilon
 	border-radius: 2px
 
+.background
+	background-image: url('$site.url / $site.background ')
+	background-size: auto
+	background-position: center
+	background-repeat: repeat-x
+	background-attachment: fixed
+	background-size: cover
+
 .wrapper-normal,
 .wrapper-large
 
@@ -146,3 +153,4 @@ pre
 .content
 	background-color: rgba(0, 0, 0, 0.10)
 	text-shadow: 4px 4px 8px rgba(0, 0, 0, 1.0)
+	position: relative

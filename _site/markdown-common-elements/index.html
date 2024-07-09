@@ -274,6 +274,8 @@ pre > code, tt { padding: 1px 0; font-family: "Consolas", Liberation Mono, Menlo
 
 pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10px; font-family: "Consolas", Liberation Mono, Menlo, Courier, monospace; font-size: 1.2rem; line-height: 2rem; overflow: auto; background: #000; border: 1px solid #222; border-radius: 2px; }
 
+.background { background-image: url("$site.url / $site.background "); background-size: auto; background-position: center; background-repeat: repeat-x; background-attachment: fixed; background-size: cover; }
+
 .wrapper-normal, .wrapper-large { height: 100%; width: 96%; margin: 0 auto; }
 @media only screen and (max-width: 400px) { .wrapper-normal, .wrapper-large { width: 88%; } }
 @media only screen and (min-width: 400px) and (max-width: 1050px) { .wrapper-normal, .wrapper-large { width: 88%; } }
@@ -282,7 +284,7 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 
 .wrapper-large { max-width: 810px; }
 
-.content { background-color: rgba(0, 0, 0, 0.1); text-shadow: 4px 4px 8px black; }
+.content { background-color: rgba(0, 0, 0, 0.1); text-shadow: 4px 4px 8px black; position: relative; }
 
 /* general helpers */
 .text-center { text-align: center; }
@@ -447,12 +449,7 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 
 </head>
 <body>
-    <div style="background-image: url('http://localhost:4000/assets/images/background2.jpg'); background-size: auto;
-	background-position: center;
-	background-repeat: repeat-x;
-	background-attachment: fixed;
-    background-size: cover;
-    ">
+    <div class="background" style="background-image: url('http://localhost:4000/assets/images/background2.jpg');">
         <div class="content wrapper-large">
             
                 <div class="post">
